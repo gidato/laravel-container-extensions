@@ -18,7 +18,7 @@ trait NestedContainers
         return $this->get($this->containerPrefix . $name);
     }
 
-    private function makeNewContainer(string $fullName) : void
+    private function createNewContainerForName(string $fullName) : void
     {
         $container = new Container();
         $container->setParent($this);
