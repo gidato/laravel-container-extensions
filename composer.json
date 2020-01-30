@@ -1,6 +1,13 @@
 {
     "name": "gidato/laravel-container-extensions",
     "description": "Extensions for Laravels Container and App",
+    "keywords": [
+        "gidato",
+        "laravel",
+        "factory",
+        "containers"
+    ],
+    "license": "MIT",
     "require": {
         "laravel/framework": "^6.0"
     },
